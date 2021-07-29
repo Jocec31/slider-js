@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" media="all">
+    <title>Slider JS</title>
+</head>
+<div class="container">
+    <div class="pictures-wrap">
+        <img src="./imgs/img1.jpg" alt="paysage" class="active img">
+        <img src="./imgs/img2.jpg" alt="paysage" class="img">
+        <img src="./imgs/img3.jpg" alt="paysage" class="img">
+        <div class="cmd-group">
+            <img src="./imgs/left.svg" alt="Flèche navigation gauche" class="left">
+            <img src="./imgs/right.svg" alt="Flèche navigation droite" class="right">
+        </div>
+        <div class="circles-group">
+            <button data-index="0" type="button" class="circle active-circle"></button>
+            <button data-index="1" type="button" class="circle"></button>
+            <button data-index="2" type="button" class="circle"></button>
+        </div>
+    </div>
+
+</div>
+
+<body>
+    <script src="./app.js"></script>
+</body>
+
+</html>
